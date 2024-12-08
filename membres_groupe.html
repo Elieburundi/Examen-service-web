@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membres du Groupe</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* Centered container */
+        .container {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            width: 80%;
+            max-width: 600px;
+        }
+
+        /* Title styling */
+        .container h2 {
+            margin: 10px 0;
+        }
+
+        .container h2:first-child {
+            font-size: 2.5rem;
+            color: #ffdf6c;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+            padding-bottom: 10px;
+        }
+
+        /* Styling for member names */
+        .container h2:not(:first-child) {
+            font-size: 1.5rem;
+            color: #e2e2e2;
+            margin: 10px 0;
+            transition: color 0.3s, transform 0.3s;
+        }
+
+        .container h2:not(:first-child):hover {
+            color: #ffdf6c;
+            transform: scale(1.05);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px 10px;
+            }
+
+            .container h2:first-child {
+                font-size: 2rem;
+            }
+
+            .container h2:not(:first-child) {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Les Membres du Groupe</h2>
+        <h2>NIYOMWUNGERE Aline</h2>
+        <h2>NIYOGUSHIMWA Eloge</h2>
+        <h2>NJANGWA Lucky Aymar</h2>
+        <h2>NSENGIMANA Elie</h2>
+    </div>
+</body>
+</html>
